@@ -1,0 +1,29 @@
+# === Archivos comprimidos / backups (NO versionar — superan el límite de 100 MB de GitHub) ===
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# === Basura del sistema operativo ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === Archivos temporales / de respaldo de CAD (SolidWorks, EasyEDA, KiCad) ===
+~$*
+*.bak
+*.swp
+*.tmp
+*-bak.*
+*_bak.*
+
+# === Backups de respaldo de SolidWorks ===
+*.SLDPRT.bak
+*.SLDASM.bak
+*.SLDDRW.bak
